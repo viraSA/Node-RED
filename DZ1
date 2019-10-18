@@ -1,0 +1,1 @@
+[{"id":"6cbeb12c.466a9","type":"function","z":"31332582.eedb62","name":"API","func":"msg.HW1 = msg.payload[0].sale\nvar a = new Date();\nmsg.DateHW1 = a.getFullYear()+'-'+(a.getMonth()+1)+'-'+a.getDate()+'  '+(a.getHours()+3)+':'+a.getMinutes()+':'+a.getSeconds()\n\nreturn msg;\n\n","outputs":1,"noerr":0,"x":710,"y":160,"wires":[["b4234a57.c63db8"]]}]
